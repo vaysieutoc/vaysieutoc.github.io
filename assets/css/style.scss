@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+$m_grad_bg_a: rgb(13,110,253);
+$m_grad_bg_b: linear-gradient(104deg, rgba(13,110,253,1) 0%, rgba(197,72,185,1) 100%);
+
+.form-wrap {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 12px;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+    .form-wrap {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    .form-wrap {
+        margin-top: 150px;
+    }
+}

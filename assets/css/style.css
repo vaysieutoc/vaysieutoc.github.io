@@ -1,0 +1,25 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form-wrap {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+}
+
+@media (min-width: 768px) {
+  .form-wrap {
+    margin-top: 100px;
+  }
+}
+@media (min-width: 992px) {
+  .form-wrap {
+    margin-top: 150px;
+  }
+}/*# sourceMappingURL=style.css.map */
